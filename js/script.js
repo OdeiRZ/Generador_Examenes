@@ -48,3 +48,16 @@ function crearCookie(dato,caducidad) {
     d.setDate(d.getDate() + caducidad);
     document.cookie = dato + "; "+"expires=" + d.toGMTString();
 }
+function leerCookie() {
+    if (document.cookie.length != 0) {
+        var cadena = "";
+        var datos = document.cookie.split(";");
+        for (var i=0; i<datos.length; i++) {
+            var pos = datos[i].indexOf("=");
+            var dni = datos[i].substring(0,pos);
+            var aux = datos[i].substring(pos+1).split('*');
+            cadena += "<p>" + dni + " -> " + aux[0] + " -> " + aux[1] + "</p>";
+        }
+        document.getElementById('resultado').innerHTML = cadena;
+    }
+}
