@@ -20,7 +20,7 @@ function generarExamen() {
     var  ex1 = new Array(p10,p11,p12,p13,p14,p15,p16,p17,p18,p19);
 
     ventana = window.open("","ventana","width=600,height=800,menubar,scrollbars");//ventana.focus();
-    ventana.document.write("<html><head><title>prueba java</title></head>");
+    ventana.document.write("<html><head><title>Test</title></head>");
     ventana.document.write("<body bgcolor='black' text='white'><form name='examen'>");
 
     for (var i=0; i<ex1.length; i++) {
