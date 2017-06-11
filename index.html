@@ -1,9 +1,32 @@
 <!DOCTYPE html>
 <html lang="es">
-	<head>
-		<meta charset="utf-8">
-		<title></title>
-	</head>
-	<body>
-	</body>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/estilos.css">
+        <title>Generador de Exámenes</title>
+    </head>
+    <body>
+        <h1>Generador de Exámenes</h1>
+        <h3>Para realizar la prueba rellena los siguientes datos:</h3>
+        <fieldset id="datos">
+            <legend>Datos Personales</legend>
+            <form action="index.html" method="post">
+                <p>
+                    <span>Nombre (completo): </span>
+                    <span><input type="text" id="nombre"></span>
+                </p>
+                <p>
+                    <span>DNI: </span>
+                    <span><input type="text" id="dni"></span>
+                </p>
+                <p>
+                    <input type="button" value="Empezar" id="empezar" disabled>
+                    <input type="reset"  value="Limpiar">
+                    <input type="button" value="Mostrar" id="mostrar">
+                </p>
+                <img src="img/invisible.gif" id="imgNota">
+            </form>
+        </fieldset>
+        <fieldset id="resultado"></fieldset>
+    </body>
 </html>
