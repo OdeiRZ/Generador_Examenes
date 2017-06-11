@@ -61,3 +61,10 @@ function leerCookie() {
         document.getElementById('resultado').innerHTML = cadena;
     }
 }
+function activarBoton(dni) {
+    if (validarDni(dni)) {
+        document.getElementById("empezar").disabled = false;
+    } else {
+        document.getElementById("empezar").disabled = true;
+    }
+}
