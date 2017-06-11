@@ -43,3 +43,8 @@ function corregir() {
     document.getElementById("imgNota").src = "img/"+imagenes[nota]+".gif";
     crearCookie(document.getElementById('dni').value+"="+document.getElementById('nombre').value+"*"+nota, 1);
 }
+function crearCookie(dato,caducidad) {
+    var d = new Date();
+    d.setDate(d.getDate() + caducidad);
+    document.cookie = dato + "; "+"expires=" + d.toGMTString();
+}
