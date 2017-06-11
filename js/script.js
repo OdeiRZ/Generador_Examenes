@@ -68,3 +68,9 @@ function activarBoton(dni) {
         document.getElementById("empezar").disabled = true;
     }
 }
+function validarDni(dni) {
+    var sw = false;
+    if (/^[0-9]{8}[a-zA-Z]{1}$/.test(dni.toUpperCase()) && ("TRWAGMYFPDXBNJZSQVHLCKE".charAt((dni.toUpperCase().substr(0, 8)) % 23) == dni.toUpperCase().charAt(8).toUpperCase()))
+        sw = true;
+    return sw;
+}
