@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+    color: white;
+}
+h1, h3 {
+    text-align: center;
+}
+legend {
+    background-color: orange;
+    border:2px solid red;
+}
+#datos, #resultado {
+    background-color: mediumpurple;
+    width: 550px;
+    margin: auto;
+    border:2px solid red;
+    margin-bottom: 10px;
+    color: black;
+    font-weight: bold;
+}
+#imgNota {
+    float:right;
+    margin-top: -130px;
+    width: 100px;
+}
+#datos p {
+    width: 400px;
+    display: table;
+}
+#datos p span {
+    display: table-cell;
+}
+#datos p span:first-child {
+    width: 150px;
+}
+#datos p:first-child span input[type=text] {
+    width: 230px;
+}
+#datos p:nth-child(3) {
+    margin-left: 150px;
+}
