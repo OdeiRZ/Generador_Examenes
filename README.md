@@ -1,22 +1,26 @@
-Generador Ex·menes 0.9
+Generador Ex√°menes 0.9
 ================================
 
-AplicaciÛn web desarrollada en JavaScript y HTML usada para generar ex·menes, corregirlos, y almacenar el
+Aplicaci√≥n web desarrollada en JavaScript y HTML usada para generar ex√°menes, corregirlos, y almacenar el
 resultado en una cookie en el equipo del cliente. Permite validar el nombre y dni del usuario para posteriormente
-almacenar la puntuaciÛn del resultado en el ordenador local.
+almacenar la puntuaci√≥n del resultado en el ordenador local.
 
-El software comprueba si el nombre y dni introducidos son v·lidos, y en tal caso, habilita un botÛn para permitir 
+El software comprueba si el nombre y dni introducidos son v√°lidos, y en tal caso, habilita un bot√≥n para permitir 
 al usuario realizar un test, tras realizarlo, se le muestra el resultado obtenido y se guarda dicha referencia en 
-una cookie para asÌ posibilitar sus futuras referencias.
+una cookie para as√≠ posibilitar sus futuras referencias.
+
+Para cualquier referencia relacionada con el sitio, podemos ver la aplicaci√≥n desplegada 
+visitando el siguiente [enlace].
 
 ## Requisitos
 - Navegador Web [Chrome], [Firefox], [Opera], [Microsoft Edge], etc..
 
 ## Licencia
-Esta aplicaciÛn se ofrece bajo licencia [GPL versiÛn 3].
+Esta aplicaci√≥n se ofrece bajo licencia [GPL versi√≥n 3].
 
+[enlace]: https://odeirz.github.io/Generador_Examenes/public/
 [Chrome]: https://www.google.es/chrome/browser/desktop/index.html
 [Firefox]: https://www.mozilla.org/es-ES/firefox/new/
 [Opera]: http://www.opera.com/es
 [Microsoft Edge]: https://www.microsoft.com/es-es/windows/microsoft-edge
-[GPL versiÛn 3]: https://www.gnu.org/licenses/gpl-3.0.en.html
+[GPL versi√≥n 3]: https://www.gnu.org/licenses/gpl-3.0.en.html
